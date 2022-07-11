@@ -122,4 +122,10 @@
             <version>30.1-jre</version>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>sellingpartner-api-aa-java</id>
+            <url>http://localhost:8181/releases</url>
+        </repository>
+    </distributionManagement>
 </project>
